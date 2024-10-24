@@ -10,7 +10,7 @@ load_dotenv()
 os.environ["GOOGLE_KEY"] = os.getenv("GOOGLE_KEY")
 
 # Streamlit app
-st.title("Pandas Query Engine with Streamlit")
+st.title("Pandas QnA")
 
 # File uploader for CSV file
 uploaded_file = st.file_uploader("Upload a CSV file", type="csv")
